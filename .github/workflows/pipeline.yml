@@ -128,8 +128,4 @@ jobs:
       - name: Deploy  
         shell: bash 
         run: | 
-          sh 'src/main/scripts/testesFuncionais.sh'   
-  
- 
-         run: |  
-          sh 'src/main/scripts/testesFuncionais.sh' 
+          sh 'src/main/scripts/testesFuncionais.sh'
