@@ -223,7 +223,7 @@ jobs:
       url: https://rafael-cicd-trabalho-a2evfde9cxdfdsh7.canadacentral-01.azurewebsites.net/
     steps: 
       - name: Download JAR 
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/download-artifact@v4
         with: 
           name: artifact 
           path: target/  
