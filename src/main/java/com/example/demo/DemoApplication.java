@@ -16,27 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		int resultado = 0;
-		resultado += 10;
-		resultado -= 3;
-		resultado += 20;
-		resultado -= 5;
-		resultado += 8;
-		resultado -= 2;
-		resultado += 15;
-		resultado -= 4;
-		resultado += 12;
-		resultado -= 6;
-		resultado += 18;
-		resultado -= 7;
-		resultado += 25;
-		resultado -= 9;
-		resultado += 30;
-		resultado -= 11;
-		resultado += 14;
-		resultado -= 13;
-		resultado += 16;
-		resultado -= 1;
 		SpringApplication.run(DemoApplication.class, args);
 
 	}
